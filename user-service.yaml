@@ -1,0 +1,9 @@
+server:
+  port: 3001
+
+app:
+  car-microservice:
+    uri: http://localhost:3002/api/car
+app:
+  moto-microservice:
+    uri: http://localhost:3003/api/moto
